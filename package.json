@@ -1,0 +1,25 @@
+{
+  "name": "invoicing",
+  "version": "1.0.0",
+  "description": "Simple invoicing web application for small companies. Based on the following technologies:\r - Node.Js\r - ExpressJs\r - Sequelize\r - SqlLite\r - jQuery",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petie/Invoicing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/petie/Invoicing/issues"
+  },
+  "homepage": "https://github.com/petie/Invoicing#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "jshintConfig": {
+    "esversion": 6
+  }
+}

@@ -17,9 +17,16 @@
   },
   "homepage": "https://github.com/petie/Invoicing#readme",
   "dependencies": {
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "hbs": "^4.0.1",
+    "sequelize": "^4.4.2",
+    "sequelize-cli": "^2.7.0",
+    "sqlite3": "^3.1.8"
   },
   "jshintConfig": {
-    "esversion": 6
+    "esversion": 6,
+    "strict": false,
+    "node": true,
+    "asi": true
   }
 }

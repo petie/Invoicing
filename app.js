@@ -1,9 +1,14 @@
 const express = require('express');
+
 const app = express();
-app.get('/', (req,res) => {
-  res.send('Hello World!');
-});
+
+require('./config/express')(app)
+require('./config/routes')(app)
 
 app.listen(3000, () => {
   console.log('Startup app on port 3000');
 });
+
+module.exports = {
+  app
+}

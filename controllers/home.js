@@ -1,3 +1,5 @@
 exports.index = (req, res) => {
-  res.render('home/index', {})
+  models.Invoice.findAll().then((invoices) => {
+      res.render('home/index', {invoices});
+  });
 }
